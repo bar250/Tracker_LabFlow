@@ -10,7 +10,7 @@ Guia para o programa
 ## Estrutura esperada de diretórios
 
   Antes de rodar o script, garanta que sua estrutura de pastas siga o formato abaixo:
-  
+  '''
   projeto/
   main.py # Script principal
     Vídeos/ # Pasta contendo os vídeos a processar
@@ -32,6 +32,7 @@ Guia para o programa
       train44/
         weights/
           best.pt # Modelo YOLOv8 treinado
+'''
 
 ##  Pré-requisitos
 
