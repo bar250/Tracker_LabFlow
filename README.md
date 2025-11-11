@@ -12,26 +12,26 @@ Guia para o programa
   Antes de rodar o script, garanta que sua estrutura de pastas siga o formato abaixo:
   
   projeto/
-  ├── main.py # Script principal
-  ├── Vídeos/ # Pasta contendo os vídeos a processar
-  │ ├── S1_T1_VF.mp4 # Vídeo da vista frontal
-  │ ├── S1_T1_VL.mp4 # Vídeo da vista lateral
-  │ ├── S2_T1_VF.mp4
-  │ ├── S2_T1_VL.mp4
-  │ └── ...
-  ├── outputs/ # Resultados gerados automaticamente
-  │ ├── S1_T1/
-  │ │ ├── output_S1_T1_VF.mp4
-  │ │ ├── trajectory_S1_T1_VF.png
-  │ │ ├── trajectory_closeup_S1_T1_VF.png
-  │ │ ├── recognitions_S1_T1_VF.txt
-  │ │ └── trajectory_S1_T1_VF.npy
-  │ └── ...
-  └── runs/
-  └── detect/
-  └── train44/
-  └── weights/
-  └── best.pt # Modelo YOLOv8 treinado
+  main.py # Script principal
+    Vídeos/ # Pasta contendo os vídeos a processar
+      S1_T1_VF.mp4 # Vídeo da vista frontal
+      S1_T1_VL.mp4 # Vídeo da vista lateral
+      S2_T1_VF.mp4
+      S2_T1_VL.mp4
+      ...
+    outputs/ # Resultados gerados automaticamente
+      S1_T1/
+        output_S1_T1_VF.mp4
+        trajectory_S1_T1_VF.png
+        trajectory_closeup_S1_T1_VF.png
+        recognitions_S1_T1_VF.txt
+        trajectory_S1_T1_VF.npy
+        ...
+  runs/
+    detect/
+      train44/
+        weights/
+          best.pt # Modelo YOLOv8 treinado
 
 ##  Pré-requisitos
 
